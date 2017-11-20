@@ -19,3 +19,5 @@ For running server and working with hot reload please type ```npm start```
 For compiling email in one HTML-file please type ```npm build```.
 
 Completed template is ```edmunds-emails/dist/pages/edmunds-welcome.html```.
+
+Documentation https://foundation.zurb.com/emails/docs/.
