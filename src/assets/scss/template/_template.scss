@@ -1,0 +1,97 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #f3f3f3 !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+@media screen and (max-width: 380px) {
+  body, table.body, p, td, th {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}
+
+body .body,
+.body .header,
+.body .footer {
+  background: #FAFAFA !important;
+}
+
+.edmunds-primary-color {
+  color: #007ee5 !important;
+}
+
+table em.code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c0341d;
+  background-color: #fcefed;
+  border-radius: 3px;
+}
+
+.sluck {
+  background: #de0e5d !important;
+}
+
+table.button.sluck table td {
+  background: #de0e5d !important;
+  border-color: #de0e5d;
+}
+
+.bg-light-grey {
+  background: #FAFAFA !important;
+}
