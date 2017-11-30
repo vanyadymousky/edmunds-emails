@@ -6,7 +6,7 @@ subject: My Basic Email Template Subject
   <container>
     <row class="collapse">
       <columns small="6" large="4">
-        <img src="https://image.ibb.co/jbJwoR/256_Code_tips_logo.png">
+        <img src="http://localhost:3000/assets/img/256_Code_tips_logo.png">
       </columns>
       <columns small="3" large="4"></columns>
       <columns small="3" large="4"></columns>
@@ -19,16 +19,22 @@ subject: My Basic Email Template Subject
   <row>
     <columns small="12">
       <spacer size="16"></spacer>
-      <p>Dear Edrivers. I would like to introduce <strong class="edmunds-primary-color">Code Tips</strong>. Hope you’re all familiar with Code Talks session we set up often and the idea of smaller code talks (containing 1-2 items of code improvement, best practices and how-to blocks) was born.</p>
+      <p>Dear EdDrivers. I would like to introduce <strong class="edmunds-primary-color">Code Tips</strong>. Hope you’re all familiar with Code Talks session we set up often, so the idea of smaller code talks (containing 1-2 items of code improvement, best practices and how-to blocks) was born.</p>
       <p>Previous code talk session was dedicated to unit tests best practices and e2e tests updates and best practices. Remember that one? Here’s a <a class="edmunds-primary-color" href="https://kb.epam.com/pages/viewpage.action?pageId=518838074">link</a> for those who missed or want to update it in his memory.</p>
-      <p>Today I would like to give a tip about how to format prices in venom the best way. There are some utils in <em class="code">client/site-modules/shared/utils/price-utils.js</em> which help you convert any digits to currency with or without cents.</p>
+      <p>Today I would like to give a tip about how to format prices in venom the best way. There is useful util in <em class="code">client/site-modules/shared/utils/price-utils.js</em> which help you convert any digits to currency with or without decimals.</p>
       <p>
-        <img src="https://image.ibb.co/msu3Nb/Screenshot_from_2017_11_10_01_17_12.png">
+        <img src="http://localhost:3000/assets/img/code-talks/price_utils_code_large.png">
+      </p>
+      <p>
+        And, of course, snapshot, since in test we're using serializing:
+      </p>
+      <p>
+        <img src="http://localhost:3000/assets/img/code-talks/price_utils_snap.png">
       </p>
       <callout class="primary">
-        <p>Text about advantages of usage</p>
+        Note how tests help to understand the code w/o looking at the code itself!
       </callout>
-      <p>Have a good day!</p>
+      <p>Let's keep our codebase clean, tidy and don't reinvent wheels! Have a good day!</p>
     </columns>
   </row>
   <wrapper class="footer">
@@ -36,11 +42,11 @@ subject: My Basic Email Template Subject
     <row>
       <columns large="6">
         <h5>Connect With Us:</h5>
-        <button class="expand sluck" href="#">Slack</button>
+        <button class="expand sluck" href="https://edmunds.slack.com/archives/C880JP2S2">Slack</button>
       </columns>
       <columns large="6">
         <h5>Contact Info:</h5>
-        <p><a class="edmunds-primary-color" href="skype:+375296182207?chat">Skype</a> | <a class="edmunds-primary-color" href="mailto:artyom_gospodarsky@epam.com">Email</a></p>
+        <p><a class="edmunds-primary-color" href="skype:vanya.dymovsky?chat">Skype</a> | <a class="edmunds-primary-color" href="mailto:ivan_dymousky@epam.com">Email</a></p>
       </columns>
     </row>
   </wrapper>
