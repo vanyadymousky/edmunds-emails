@@ -1,0 +1,58 @@
+---
+subject: My Basic Email Template Subject
+---
+
+<wrapper class="header bg-light-grey">
+  <container>
+    <row class="collapse">
+      <columns small="6" large="4">
+        <img src="http://localhost:3000/assets/img/256_Code_tips_logo.png">
+      </columns>
+      <columns small="3" large="4"></columns>
+      <columns small="3" large="4"></columns>
+    </row>
+  </container>
+</wrapper>
+
+<container>
+  <spacer size="16"></spacer>
+  <row>
+    <columns small="12">
+      <spacer size="16"></spacer>
+      <p>Welcome back to <strong class="edmunds-primary-color">Code Tips</strong>!</p>
+      <p>
+        Today I would like to remind you about importance of using <em class="code">componentWillUnmount</em> component lifecycle hook.
+        From docs: <em class="code">componentWillUnmount()</em> is invoked immediately before a component is unmounted and destroyed and it's
+        usually used for any necessary cleanup, such as cleaning up any subscriptions that were created in <em class="code">componentDidMount()</em>.
+      </p>
+      <p>
+        Our carousel shared component can be good example, so having <em class="code">addEventListener</em> subscription in
+        <em class="code">componentDidMount</em></p>
+      <p>
+        <img src="http://localhost:3000/assets/img/code-talks/component-will-unmount/did-mount.png">
+      </p>
+      <p>
+        Should be supported by <em class="code">componentWillUnmount</em> lifecycle hook with <em class="code">removeEventListener</em>,
+        cleaning listeners when component is removed/destroyed:
+      </p>
+      <p>
+        <img src="http://localhost:3000/assets/img/code-talks/component-will-unmount/will-unmount.png">
+      </p>
+      <callout class="primary">
+        This brings performance gains when SPA functionality is activated in Venom.
+      </callout>
+      <p>Let's keep our codebase clean, tidy and don't reinvent wheels! Have a good day!</p>
+    </columns>
+  </row>
+  <wrapper class="footer">
+    <spacer size="16"></spacer>
+    <row>
+      <columns large="6">
+        <h5>Connect With Us:</h5>
+        <button class="expand sluck" href="https://edmunds.slack.com/archives/C880JP2S2">Slack</button>
+      </columns>
+      <columns large="6">
+      </columns>
+    </row>
+  </wrapper>
+</container>
